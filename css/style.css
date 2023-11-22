@@ -1,0 +1,292 @@
+/* Fuente importada de Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #630aed;
+  color: #242526;
+}
+
+#header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/img/soli-01.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedor {
+  padding: 10px 10%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Logo {
+  width: 150px;
+}
+
+/*configuracion del menu*/
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li {
+  color: #630aed;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+
+.header-texto {
+  margin-top: 20%;
+  font-size: 30px;
+}
+
+.header-texto h1 {
+  margin-top: 60px;
+  font-size: 150px;
+}
+
+span {
+  color: #630aed;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.parrafo {
+  font-size: 20px;
+
+}
+
+/* Seccion Sobre Mi */
+.sobremi {
+  background-color: #e6e6e6;
+  padding: 100px 0 100px 0;
+  text-align: center;
+}
+
+.sobremi .contenido-seccion {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.sobremi .contenido-seccion h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.sobremi .contenido-seccion .especial {
+  color: #630aed;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.sobremi .contenido-seccion p {
+  max-width: 700px;
+  margin: auto;
+  color: #242526;
+}
+
+.sobremi .contenido-seccion .fila {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.sobremi .contenido-seccion .fila .col {
+  width: 30%;
+}
+
+.sobremi .contenido-seccion .fila .col i {
+  color: #630aed;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #630aed;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+.sobremi .contenido-seccion .fila .col span {
+  display: block;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+
+/*Experiencia Laboral*/
+
+img {
+  width: 100%;
+}
+
+.portafolio {
+  margin: auto;
+  background: #630aed;
+  padding: 100px 10px 100px 10px;
+}
+
+.portafolio h1 {
+  text-align: center;
+  font-size: 38px;
+  margin: 15px 0px 40px;
+  color: #fff;
+}
+
+.portafolio-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.portafolio-item {
+  width: 30%;
+  position: relative;
+  overflow: hidden;
+}
+
+.portafolio-img {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.portafolio-text {
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+
+  -webkit-transform: translateY(100%);
+
+  -ms-transform: translateY(100%);
+
+  transform: translateY(100%);
+
+  -webkit-transition: all 0.5s ease-out;
+
+  transition: all 0.5s ease-out;
+}
+
+.portafolio-text p {
+  text-align: justify;
+}
+
+.portafolio-item:hover .portafolio-text {
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+}
+
+.portafolio-item:hover .portafolio-img {
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+/*Seccion de Contacto*/
+
+.contacto {
+  background-image: url(/img/contacto.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 100px 10px 100px 10px;
+}
+
+.container-form {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  margin-top: 90px;
+}
+
+.contacto h1 {
+  text-align: center;
+  font-size: 38px;
+  margin: 15px 0px 40px;
+}
+
+.container-form h2 {
+  margin-bottom: 15px;
+  font-size: 35px
+}
+
+.container-form p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.container-form a {
+  font-size: 17px;
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 15px;
+  color: black;
+  font-weight: 700;
+}
+
+.container-form a i {
+  color: #630aed;
+  margin-right: 10px;
+}
+
+.container-form form .campo,
+textarea {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 16px;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  outline: 0px;
+}
+
+.container-form form textarea {
+  max-width: 530px;
+  min-width: 530px;
+  min-height: 140px;
+  max-height: 150px;
+}
+
+.container-form .btn-enviar {
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: 0px;
+  background: #630aed;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.container-form .btn-enviar:hover {
+  background: #630aed;
+}

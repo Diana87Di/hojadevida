@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/Logo.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>CV Diana Díaz</title>
+</head>
+
+<body>
+  <!--En esta seccion configuramos la parte de arriba donde esta la imagen grande mia, el logo y el menu de navegacion-->
+  <div id="header">
+    <div class="contenedor">
+      <nav>
+        <img src="/img/Logo-02.png" class="Logo">
+        <ul>
+          <li><a href="#inicio"></a>Inicio</li>
+          <li><a href="#sobremi"></a>Sobre Mí</li>
+          <li><a href="#misgustos"></a>Mis Gustos</li>
+          <li><a href="#experiencia"></a>Experiencia Laboral</li>
+          <li><a href="#contacto"></a>Contacto</li>
+        </ul>
+      </nav>
+      <div class="header-texto"></div>
+      <p class="parrafo" id="inicio">Diseñadora Gráfica</p>
+      <h1>Hola, Soy <span>Diana</span><br> y Bienvenidos</h1>
+    </div>
+  </div>
+  <!-- Seccion sobre mi-->
+  <section class="sobremi" id="sobremi">
+    <div class="contenido-seccion">
+      <h2 class="titulo-seccion">Sobre Mi</h2>
+      <h3>Detalles personales</h3>
+
+      <p class="especial">Soy una convencida de que la educación y
+        las oportunidades pueden transformar
+        nuestra sociedad.</p>
+      <p>Por ello, me apasionan los
+        cambios, los desafios y los retos respecto al
+        conocimiento y la aplicación del mismo.
+      </p>
+
+      <div class="fila">
+        <div class="col">
+          <i class="fa-solid fa-user"></i>
+          <span class="titulo-detalle">Perfil</span>
+          <p>Me dedico a producir ideas creativas y originales para mis clientes</p>
+        </div>
+        <div class="col">
+          <i class="fa-solid fa-location-pin"></i>
+          <span class="titulo-detalle">Ubicación</span>
+          <p>Vivo en la ciudad de Medellín. Esta ubicación estratégica me brinda acceso a diversas oportunidades
+            profesionales, lo que enriquece mi perspectiva y mi capacidad para
+            trabajar en
+            diversos entornos. </p>
+        </div>
+        <div class="col">
+          <i class="fa-solid fa-flag"></i>
+          <span class="titulo-detalle" id="misgustos">Mis gustos</span>
+          <p>Me encanta escuchar música,montar en bicicleta,jugar videojuegos en especial La FIFA, ir a cine, dibujar
+            entre otros cosas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Seccion Experiencia Laboral-->
+  <section class="portafolio">
+    <h1 id="Experiencia">Experiencia Laboral</h1>
+    <div class="portafolio-container">
+      <section class="portafolio-item">
+        <img src="img/minuto30.jpg" alt="" class="portafolio-img">
+        <section class="portafolio-text">
+          <h2>MINUTO30.COM</h2>
+          <p>En Minuto30, trabajé en el área de redacción de contenido y en el soporte de equipos, aunque trabajé más en
+            la parte periodística.</p>
+        </section>
+      </section>
+      <section class="portafolio-item">
+        <img src="img/une.jpg" alt="" class="portafolio-img">
+        <section class="portafolio-text">
+          <h2>UNE</h2>
+          <p>Este fue uno de mis primeros trabajos. Mis labores eran dar asesoría telefónica a los clientes de la
+            empresa.
+          </p>
+        </section>
+      </section>
+      <section class="portafolio-item">
+        <img src="img/Marketing.jpg" alt="" class="portafolio-img">
+        <section class="portafolio-text">
+          <h2>MARKETING PERSONAL</h2>
+          <p>En esta empresa me encargaba del retoque de las imágenes, de los catálogos que salían mes a mes. </p>
+        </section>
+      </section>
+    </div>
+  </section>
+  <!--Seccion de Contacto-->
+  <section class="contacto">
+    <h1 id="Contacto">Contacto</h1>
+    <div class="container-form">
+      <div class="info-form">
+        <h2>Contacta conmigo</h2>
+        <p>Si deseas ponerse en contacto conmigo para oportunidades profesionales, colaboraciones o cualquier consulta,
+          no dudes en
+          escribirme. Estoy siempre dispuesta a conectarme y discutir cómo podemos trabajar juntos.</p>
+        <a href="#"><i class="fa fa-phone"></i> 305-895-1187</a>
+        <a href="#"><i class="fa fa-envelope"></i> dianadiazvalencia87@gmail.com</a>
+        <a href="#"><i class="fa fa-map-marked"></i> Medellí, Colombia</a>
+      </div>
+      <form action="#" autocomplete="off">
+        <input type="text" name="nombre" placeholder="Tu Nombre" class="campo">
+        <input type="emal" name="email" placeholder="Tu Email" class="campo">
+        <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
+        <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>
